@@ -6,29 +6,29 @@ public class dz {
 //         Ожидаемый результат: 1а 2а 3а .. 100а
 //
 //        for (int n = 1; n < 101; n++)
-//            System.out.println(n + "a");
+//            System.out.print(n + "a ");
 //
 
 
 //        Задание №2
 //         Дано:
-//        int Children = 10;
+//        int ageChildren = 10;
 //        Задача: Написать условную конструкцию, которая в зависимости от возраста ребенка, отправляет его в учебное заведение
 //        если ребенку до 6 лет то в сад, если до 11 лет в младшую школу, если до 17 лет в среднюю школу, иначе в университет
 //        Отправляет - имеется в виду, печатает на экран: "пошел с сад", "пошел в младшую школу" и т.д.
 //        Проверьте работоспособность условий, через изменение значения переменной.
 //
 
-//        int Children = 18;
-//        if (Children <= 6) {
-//            System.out.println("детский сад");
-//        }if (7 <= Children == Children <= 10) {
-//            System.out.println("младшая школа");
-//        }if (11 <= Children == Children <= 16) {
-//            System.out.println("средняя школа");
-//        }if (Children >= 17) {
-//            System.out.println("университет");
-//        }
+        int Children = 18;
+        if (Children <= 6) {
+            System.out.println("детский сад");
+        }if (7 <= Children == Children <= 10) {
+            System.out.println("младшая школа");
+        }if (11 <= Children == Children <= 16) {
+            System.out.println("средняя школа");
+        }if (Children >= 17) {
+            System.out.println("университет");
+        }
 
 
 //        Задание №3
