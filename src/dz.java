@@ -18,6 +18,19 @@ public class dz {
         // Отправляет - имеется в виду, печатает на экран: "пошел с сад", "пошел в младшую школу" и т.д.
         // Проверьте работоспособность условий, через изменение значения переменной.
         //
+
+        int ageChildren = 10;
+        if (ageChildren <= 6) {
+            System.out.println("пошел в сад");
+        }if (7 <= ageChildren == ageChildren <= 10) {
+            System.out.println("пошел в младшую школу");
+        }if (11 <= ageChildren == ageChildren <= 16) {
+            System.out.println("пошел в среднюю школу");
+        }if (ageChildren >= 17) {
+            System.out.println("пошел в университет");
+        }
+
+
         // Задание №3
         // Дано:
         boolean chicken = true;
