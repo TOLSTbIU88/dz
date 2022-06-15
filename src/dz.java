@@ -1,13 +1,12 @@
 public class dz {
     public static void main(String[] args) {
-
         // Домашка
         // Базовый уровень
         // Задание №1 - Написать цикл, который выводит через пробел 100 чисел с приставкой "a".
         // Ожидаемый результат: 1а 2а 3а .. 100а
 
-        for (int i = 1; i < 101; i++)
-            System.out.println(i + "a");
+        for (int n = 1; n < 101; n++)
+            System.out.println(n + "a");
 
 
         //
@@ -42,5 +41,4 @@ public class dz {
     }
 }
 
-    }
-}
+
