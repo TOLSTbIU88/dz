@@ -19,16 +19,16 @@ public class dz {
 //        // Проверьте работоспособность условий, через изменение значения переменной.
 //        //
 
-        int Children = 18;
-        if (Children <= 6) {
-            System.out.println("детский сад");
-        }if (7 <= Children == Children <= 10) {
-            System.out.println("младшая школа");
-        }if (11 <= Children == Children <= 16) {
-            System.out.println("средняя школа");
-        }if (Children >= 17) {
-            System.out.println("университет");
-        }
+//        int Children = 18;
+//        if (Children <= 6) {
+//            System.out.println("детский сад");
+//        }if (7 <= Children == Children <= 10) {
+//            System.out.println("младшая школа");
+//        }if (11 <= Children == Children <= 16) {
+//            System.out.println("средняя школа");
+//        }if (Children >= 17) {
+//            System.out.println("университет");
+//        }
 
 
         // Задание №3
