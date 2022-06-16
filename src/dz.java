@@ -43,15 +43,20 @@ public class dz {
         boolean sausage = true;
         boolean eggs = true;
 
-        if (chicken == vegetables== sour ==toast) {
+        if (chicken && vegetables && sour && toast) {
             System.out.println("цезарь");
         }
-        if (vegetables == sausage == chicken == eggs) {
+        if (vegetables && sausage && chicken && eggs) {
             System.out.println("оливье");
         }
         if (vegetables) {
             System.out.println("овощной");
+        } else {
+            System.out.println("нет салата");
+
         }
+
+    }}
 
 
 
@@ -67,7 +72,6 @@ public class dz {
 //         Задание №4
 //         Создать два класса, которые описывают какое либо животное (имеют два атрибута).
 //         Написать к ним конструктор, сеттеры, геттеры.
-    }
-}
+
 
 
