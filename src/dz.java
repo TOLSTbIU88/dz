@@ -5,10 +5,10 @@ public class dz {
 //         Задание №1 - Написать цикл, который выводит через пробел 100 чисел с приставкой "a".
 //         Ожидаемый результат: 1а 2а 3а .. 100а
 //
-        for (int n = 1; n < 101; n++)
-            System.out.print(n + "a ");
-
-
+//        for (int n = 1; n < 101; n++)
+//            System.out.print(n + "a ");
+//
+//
 
 //        Задание №2
 //         Дано:
@@ -19,20 +19,20 @@ public class dz {
 //        Проверьте работоспособность условий, через изменение значения переменной.
 //
 
-        int Children = 10;
-        if (Children <= 6) {
-            System.out.println("детский сад");
-        }
-        if (7 <= Children == Children <= 10) {
-            System.out.println("младшая школа");
-        }
-        if (11 <= Children == Children <= 16) {
-            System.out.println("средняя школа");
-        }
-        if (Children >= 17) {
-            System.out.println("университет");
-        }
-
+//        int Children = 10;
+//        if (Children <= 6) {
+//            System.out.println("детский сад");
+//        }
+//        if (7 <= Children == Children <= 10) {
+//            System.out.println("младшая школа");
+//        }
+//        if (11 <= Children == Children <= 16) {
+//            System.out.println("средняя школа");
+//        }
+//        if (Children >= 17) {
+//            System.out.println("университет");
+//        }
+//
 
 //        Задание №3
 //        Дано:
@@ -43,7 +43,15 @@ public class dz {
         boolean sausage = true;
         boolean eggs = true;
 
-
+        if (chicken == vegetables== sour ==toast) {
+            System.out.println("цезарь");
+        }
+        if (vegetables == sausage == chicken == eggs) {
+            System.out.println("оливье");
+        }
+        if (vegetables) {
+            System.out.println("овощной");
+        }
 
 
 
