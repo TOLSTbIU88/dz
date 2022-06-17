@@ -6,5 +6,6 @@ public class Animal {
         Bear bear = new Bear ("Grizzly",20);
         System.out.println(bear.getInfo() );
 
+
     }
 }
