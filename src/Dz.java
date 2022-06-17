@@ -77,5 +77,8 @@ public class Dz {
         Bear bear = new Bear ("Grizzly",20);
         System.out.println(bear.getInfo() );
 
+        Bear bear2 = new Bear ("Panda",10);
+        System.out.println(bear2.getInfo2() );
+
 
     }}
