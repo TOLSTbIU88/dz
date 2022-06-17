@@ -1,3 +1,5 @@
+import animal.Bear;
+
 public class Dz {
     public static void main(String[] args) {
 //         Домашка
@@ -7,7 +9,6 @@ public class Dz {
 //
         for (int n = 1; n < 101; n++)
             System.out.print(n + "a ");
-
 
 
 //        Задание №2
@@ -56,9 +57,6 @@ public class Dz {
 
         }
 
-    }}
-
-
 
 //         Задача: Повара попросили сделать салат.
 //         Если у повара есть все ингредиенты для "Цезаря" (курица, овощи, соус и гренки), то лучше сделать "Цезарь".
@@ -71,10 +69,13 @@ public class Dz {
 //
 
 
-
-
 //         Задание №4
 //         Создать два класса, которые описывают какое либо животное (имеют два атрибута).
 //         Написать к ним конструктор, сеттеры, геттеры.
 
 
+        Bear bear = new Bear ("Grizzly",20);
+        System.out.println(bear.getInfo() );
+
+
+    }}
