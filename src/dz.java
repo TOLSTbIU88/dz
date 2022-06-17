@@ -36,26 +36,26 @@ public class dz {
 
 //        Задание №3
 //        Дано:
-        boolean chicken = true;
-        boolean vegetables = false;
-        boolean sour = true;
-        boolean toast = true;
-        boolean sausage = true;
-        boolean eggs = true;
-
-        if (chicken && vegetables && sour && toast) {
-            System.out.println("цезарь");
-        }
-        if (vegetables && (sausage || chicken) && eggs) {
-            System.out.println("оливье");
-        }
-        if (vegetables) {
-            System.out.println("овощной");
-        } else {
-            System.out.println("нет салата");
-
-        }
-
+//        boolean chicken = true;
+//        boolean vegetables = false;
+//        boolean sour = true;
+//        boolean toast = true;
+//        boolean sausage = true;
+//        boolean eggs = true;
+//
+//        if (chicken && vegetables && sour && toast) {
+//            System.out.println("цезарь");
+//        }
+//        if (vegetables && (sausage || chicken) && eggs) {
+//            System.out.println("оливье");
+//        }
+//        if (vegetables) {
+//            System.out.println("овощной");
+//        } else {
+//            System.out.println("нет салата");
+//
+//        }
+//
     }}
 
 
