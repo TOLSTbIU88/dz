@@ -1,4 +1,4 @@
-public class dz {
+public class Dz {
     public static void main(String[] args) {
 //         Домашка
 //         Базовый уровень
