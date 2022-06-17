@@ -1,4 +1,5 @@
 import animal.Bear;
+import animal.Deer;
 
 public class Dz {
     public static void main(String[] args) {
@@ -77,8 +78,8 @@ public class Dz {
         Bear bear = new Bear ("Grizzly",20);
         System.out.println(bear.getInfo() );
 
-        Bear bear2 = new Bear ("Panda",10);
-        System.out.println(bear2.getInfo2() );
+        Deer deer = new Deer("Sohat",10);
+        System.out.println(deer.getInfo2() );
 
 
     }}
