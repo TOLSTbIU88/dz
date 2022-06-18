@@ -1,9 +1,9 @@
 package animal;
 
 public class Bear {
-    String bearName;
+    private String bearName;
 
-    int bearSpeed;
+    private  int bearSpeed;
 
     public Bear(String name, int speed) {
         this.bearName = name;
