@@ -2,8 +2,8 @@ package animal;
 
 public class Deer {
 
-    String deerName;
-    int deerSpeed;
+    private String deerName;
+    private int deerSpeed;
 
     public Deer(String name, int speed) {
         this.deerName = name;
