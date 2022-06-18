@@ -1,5 +1,6 @@
 import animal.Bear;
 import animal.Deer;
+import animal.Fish;
 
 public class Dz {
     public static void main(String[] args) {
@@ -81,5 +82,8 @@ public class Dz {
         Deer deer = new Deer("Sohat",10);
         System.out.println(deer.getInfo2() );
 
+        Fish shuka = new Fish("shuka", 50);
+        System.out.println(shuka.getFishSpeed());
 
-    }}
+    }
+}
