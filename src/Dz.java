@@ -83,7 +83,8 @@ public class Dz {
         System.out.println(deer.getInfo2() );
 
         Fish shuka = new Fish("shuka", 50);
-        System.out.println(shuka.getFishSpeed());
+        System.out.println(shuka.getFishSpeed() + shuka.getFishName());
+        System.out.println(shuka.getInfo3());
 
     }
 }

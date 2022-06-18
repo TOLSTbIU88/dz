@@ -25,4 +25,7 @@ public class Fish {
     public void setFishSpeed(int fishSpeed) {
         this.fishSpeed = fishSpeed;
     }
+    public String getInfo3(){
+        return this.fishName + " " + fishSpeed;
+    }
 }
