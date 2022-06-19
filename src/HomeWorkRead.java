@@ -13,5 +13,6 @@ public class HomeWorkRead {
 
         }
         System.out.println(rezult);
+        fileReader.close();
     }
 }
