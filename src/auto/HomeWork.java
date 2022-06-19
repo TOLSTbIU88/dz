@@ -5,7 +5,12 @@ public class HomeWork {
         Car granta = new Lada();
         Car corolla = new Toyota();
         Car[] cars = {granta,corolla};
-
+        granta.startMoving();
+        granta.stop();
+        granta.turnLight();
+        corolla.turnLight();
+        corolla.stop();
+        corolla.startMoving();
 
 
     }
