@@ -13,7 +13,5 @@ public class HomeWork {
         corolla.turnLight();
         corolla.turnMuzic();
 
-
-
     }
 }
