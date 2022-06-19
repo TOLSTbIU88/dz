@@ -1,5 +1,8 @@
 package auto;
 
+import java.io.File;
+import java.io.FileReader;
+
 public class HomeWork {
     public static void main(String[] args) {
         Lada granta = new Lada();
