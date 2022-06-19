@@ -1,8 +1,6 @@
-import animal.Bear;
-import animal.Deer;
-import animal.Fish;
+package animal;
 
-public class HomeWork {
+public class old {
     public static void main(String[] args) {
 //         Домашка
 //         Базовый уровень
