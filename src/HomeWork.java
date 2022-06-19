@@ -2,7 +2,7 @@ import animal.Bear;
 import animal.Deer;
 import animal.Fish;
 
-public class Dz {
+public class HomeWork {
     public static void main(String[] args) {
 //         Домашка
 //         Базовый уровень
