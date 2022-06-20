@@ -7,10 +7,16 @@ public class HomeWorkRead {
 
         FileReader fileReader = new FileReader("/Users/konstantinvolkov/Desktop/java/dz/out/resource/my_first_file.txt");
         BufferedReader bufferedReader = new BufferedReader(fileReader);
-        while (bufferedReader.ready()){
-            String readLine = bufferedReader.readLine();
-            System.out.println(readLine);
+        String str = bufferedReader.readLine();
+        String rezult = bufferedReader + str;
+
+        while (bufferedReader.ready()) {
+           str = bufferedReader.readLine();
+
         }
+        System.out.println(rezult+str);
+
+
 
         fileReader.close();
     }
