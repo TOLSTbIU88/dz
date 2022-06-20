@@ -11,9 +11,9 @@ public class HomeWorkRead {
 
         while (bufferedReader.ready()){
             String str = bufferedReader.readLine();
-            rezult +=""+str;
+            rezult += " "+str;
         }
-        System.out.println(rezult);
+        System.out.println(rezult.trim());
 
         fileReader.close();
     }
