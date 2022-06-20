@@ -14,9 +14,7 @@ public class HomeWorkRead {
            str = bufferedReader.readLine();
 
         }
-        System.out.println(rezult+str);
-
-
+        System.out.println(rezult + str);
 
         fileReader.close();
     }
