@@ -10,7 +10,6 @@ public class HomeWork {
         granta.startMoving();
         granta.stop();
         granta.turnLight();
-        granta.stop();
         corolla.startMoving();
         corolla.stop();
         corolla.turnLight();
