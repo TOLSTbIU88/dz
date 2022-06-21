@@ -9,6 +9,7 @@ public class HomeWork {
         Toyota corolla = new Toyota();
         granta.startMoving();
         granta.stop();
+        granta.crash();
         granta.turnLight();
         corolla.startMoving();
         corolla.stop();
