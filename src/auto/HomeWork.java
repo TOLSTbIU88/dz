@@ -14,4 +14,7 @@ public class HomeWork {
         corolla.turnMuzic();
 
     }
+
+    Financialrecord financialrecord = new Financialrecord(500,300);
+
 }

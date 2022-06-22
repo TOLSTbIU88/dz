@@ -1,3 +1,5 @@
+package auto;
+
 public class Financialrecord {
 
     int incomes ;
@@ -23,4 +25,6 @@ public class Financialrecord {
     public void setOutcomes(int outcomes) {
         this.outcomes = outcomes;
     }
+
+
 }
