@@ -1,10 +1,26 @@
 public class Financialrecord {
 
-    public static void main(String[] args) {
+    int incomes ;
+    int outcomes;
 
-        int incomes = 500;
-        int outcomes = 300;
-
+    public Financialrecord(int incomes, int outcomes) {
+        this.incomes = incomes;
+        this.outcomes = outcomes;
     }
 
+    public int getIncomes() {
+        return incomes;
+    }
+
+    public void setIncomes(int incomes) {
+        this.incomes = incomes;
+    }
+
+    public int getOutcomes() {
+        return outcomes;
+    }
+
+    public void setOutcomes(int outcomes) {
+        this.outcomes = outcomes;
+    }
 }
