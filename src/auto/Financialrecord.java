@@ -26,5 +26,8 @@ public class Financialrecord {
         this.outcomes = outcomes;
     }
 
+    int getInfo(){
+      return this.incomes + this.outcomes;
+    }
 
 }
