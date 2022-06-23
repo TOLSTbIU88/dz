@@ -21,8 +21,8 @@ public class HomeWork {
 
     public static void writer () throws IOException {
         Financialrecord financialrecord = new Financialrecord(500,300);
-        FileWriter fileWriter = new FileWriter("/Users/konstantinvolkov/Desktop/java/dz/out/resource/my_first_file.txt");
-        fileWriter.write("");
+        FileWriter fileWriter = new FileWriter("/Users/konstantinvolkov/Desktop/java/dz/out/resource/my_file.txt");
+        fileWriter.write (financialrecord.getIncomes() + financialrecord.getOutcomes());
 
 
     }
