@@ -16,7 +16,8 @@ public class HomeWork {
     }
     {
         Financialrecord financialrecord = new Financialrecord(500,300);
-        System.out.println(financialrecord);
+
+        System.out.println(financialrecord.getInfo());
     }
 
 
