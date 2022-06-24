@@ -4,7 +4,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class HomeWork {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+
         Lada granta = new Lada();
         Toyota corolla = new Toyota();
         granta.startMoving();
@@ -16,14 +17,10 @@ public class HomeWork {
         corolla.turnLight();
         corolla.turnMuzic();
 
-    }
 
-
-
-    public static void writer () throws IOException {
         Financialrecord financialrecord = new Financialrecord(500,300);
         FileWriter fileWriter = new FileWriter("/Users/konstantinvolkov/Desktop/java/dz/out/resource/my_file2.txt");
-        fileWriter.write ("доходы" + financialrecord.getIncomes() + "расходы" +  financialrecord.getOutcomes());
+        fileWriter.write ("доходы" + financialrecord.getIncomes() +" "+"расходы" +  financialrecord.getOutcomes());
         fileWriter.close();
 
     }
