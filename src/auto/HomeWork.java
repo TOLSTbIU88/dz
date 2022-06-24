@@ -23,5 +23,17 @@ public class HomeWork {
         fileWriter.write ("доходы " + financialrecord.getIncomes() +" "+"расходы " +  financialrecord.getOutcomes());
         fileWriter.close();
 
+        Car [] cars = new Car[40];
+        for (int i = 0;i <= 19;i++){
+
+        }
+        cars [i] = CarFactory.NovLada();
+        for (int i = 0;i <= 40;i++){
+
+        }
+        cars [i] = CarFactory.NovToyota();
+
+
+
     }
 }
