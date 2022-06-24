@@ -18,22 +18,21 @@ public class HomeWork {
         corolla.turnMuzic();
 
 
-        Financialrecord financialrecord = new Financialrecord(500,300);
+        Financialrecord financialrecord = new Financialrecord(500, 300);
         FileWriter fileWriter = new FileWriter("/Users/konstantinvolkov/Desktop/java/dz/out/resource/report.txt");
-        fileWriter.write ("доходы " + financialrecord.getIncomes() +" "+"расходы " +  financialrecord.getOutcomes());
+        fileWriter.write("доходы " + financialrecord.getIncomes() + " " + "расходы " + financialrecord.getOutcomes());
         fileWriter.close();
 
-        Car [] cars = new Car[40];
-        for (int i = 0;i <= 19;i++){
 
+        Car[] cars = new Car[40];
+
+        for (int i = 0; i < cars.length; i++) {
+            if (i <= 19) {
+                cars[i] = CarFactory.NovLada();
+            }
+            if (i >= 20) {
+                cars [i]= CarFactory.NovToyota();
+            }
         }
-        cars [i] = CarFactory.NovLada();
-        for (int i = 0;i <= 40;i++){
-
-        }
-        cars [i] = CarFactory.NovToyota();
-
-
-
     }
 }
