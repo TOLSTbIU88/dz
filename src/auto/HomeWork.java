@@ -23,7 +23,7 @@ public class HomeWork {
     public static void writer () throws IOException {
         Financialrecord financialrecord = new Financialrecord(500,300);
         FileWriter fileWriter = new FileWriter("/Users/konstantinvolkov/Desktop/java/dz/out/resource/my_file2.txt");
-        fileWriter.write (financialrecord.getInfo());
+        fileWriter.write ("доходы" + financialrecord.getIncomes() + "расходы" +  financialrecord.getOutcomes());
         fileWriter.close();
 
     }
