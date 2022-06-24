@@ -20,7 +20,7 @@ public class HomeWork {
 
         Financialrecord financialrecord = new Financialrecord(500,300);
         FileWriter fileWriter = new FileWriter("/Users/konstantinvolkov/Desktop/java/dz/out/resource/report.txt");
-        fileWriter.write ("доходы" + financialrecord.getIncomes() +" "+"расходы" +  financialrecord.getOutcomes());
+        fileWriter.write ("доходы " + financialrecord.getIncomes() +" "+"расходы " +  financialrecord.getOutcomes());
         fileWriter.close();
 
     }
