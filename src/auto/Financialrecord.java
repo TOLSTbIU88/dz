@@ -2,8 +2,8 @@ package auto;
 
 public class Financialrecord {
 
-    int incomes ;
-    int outcomes;
+    private int incomes ;
+    private int outcomes;
 
     public Financialrecord(int incomes, int outcomes) {
         this.incomes = incomes;
