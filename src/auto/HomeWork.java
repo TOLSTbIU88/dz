@@ -32,6 +32,30 @@ public class HomeWork {
             }
             if (i >= 20) {
                 cars [i]= CarFactory.NovToyota();
+
+             Car lada1 = new Lada();
+             Car lada2 = new Lada();
+             Car lada3 = new Lada();
+             Car lada4 = new Lada();
+             Car lada5 = new Lada();
+             Car lada6 = new Lada();
+             Car lada7 = new Lada();
+             Car lada8 = new Lada();
+             Car lada9 = new Lada();
+             Car lada10 = new Lada();
+             Car lada11 = new Lada();
+             Car lada12 = new Lada();
+             Car lada13 = new Lada();
+             Car lada14 = new Lada();
+             Car lada15 = new Lada();
+             Car lada16 = new Lada();
+             Car lada17 = new Lada();
+             Car lada18 = new Lada();
+             Car lada19 = new Lada();
+             Car lada20 = new Lada();
+             Car [] car = {lada1, lada2, lada3, lada4, lada5,lada6,lada7,lada8,lada9,lada10,lada11,lada12,lada13,lada14,lada15,lada16,lada17,lada18,lada19,lada20,};
+
+
             }
         }
     }
