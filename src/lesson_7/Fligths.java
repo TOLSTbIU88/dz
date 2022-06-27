@@ -1,5 +1,5 @@
 package lesson_7;
 
-public interface Plan {
+public interface Fligths {
     void fly();
 }
