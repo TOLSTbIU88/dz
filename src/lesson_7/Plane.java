@@ -11,4 +11,12 @@ public class Plane extends FlyException implements Fligths {
         System.out.println("Самолет летит");
     }
 
+    @Override
+    public void nofly() {
+        super.nofly();
+    }
+
+    public void setCountPassengers(int countPassengers) {
+        this.countPassengers = countPassengers;
+    }
 }
