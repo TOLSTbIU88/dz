@@ -6,10 +6,10 @@ public class HomeWork4 {
 
         Plane Tu214 = new Plane(10);
         Plane IL96 = new Plane(-1);
-        Duck duck = new Duck(true);
-        Duck duck3 = new Duck(false);
+        Duck duckCrak = new Duck(true);
+        Duck duckMac = new Duck(false);
 
-        Fligths [] flys = {Tu214,IL96,duck,duck3};
+        Fligths [] flys = {Tu214,IL96,duckMac,duckCrak};
         for (Fligths fligths: flys){
             fligths.fly();
         }
