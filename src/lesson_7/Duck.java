@@ -11,7 +11,9 @@ public class Duck extends FlyException implements Fligths {
     }
     public void setInjured(boolean injured) {
         isInjured = injured;
-    }public void fly(){
+    }
+    public void fly(){
+
         System.out.println("Утка летит");
     }
 
