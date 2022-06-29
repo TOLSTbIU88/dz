@@ -1,6 +1,6 @@
 package lesson_7;
 
-public class Plane extends FlyException implements Fligths {
+public class Plane  implements Fligths {
 
     private int countPassengers;
 
@@ -14,6 +14,11 @@ public class Plane extends FlyException implements Fligths {
         this.countPassengers = countPassengers;
     }
     public void fly (){
+        if (countPassengers < 0){
+        }
+        else
+
         System.out.println("Самолет летит");
     }
+
 }

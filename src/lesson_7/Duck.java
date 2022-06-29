@@ -1,6 +1,6 @@
 package lesson_7;
 
-public class Duck extends FlyException implements Fligths {
+public class Duck implements Fligths {
 
     private boolean isInjured  ;
     public Duck(boolean isInjured) {
@@ -12,7 +12,10 @@ public class Duck extends FlyException implements Fligths {
     public void setInjured(boolean injured) {
         isInjured = injured;
     }
-    public void fly(){
+    public void fly()  {
+        if (isInjured){
+        }
+        else
 
         System.out.println("Утка летит");
     }

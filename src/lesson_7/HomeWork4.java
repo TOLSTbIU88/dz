@@ -10,8 +10,9 @@ public class HomeWork4 {
         Duck duckMac = new Duck(false);
 
         Fligths [] flys = {Tu214,IL96,duckMac,duckCrak};
-        for (Fligths fligths: flys){
-            fligths.fly();
-        }
+
+        for (Fligths fligths: flys)
+                fligths.fly();
+
     }
 }

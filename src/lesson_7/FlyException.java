@@ -1,5 +1,22 @@
 package lesson_7;
 
-public class FlyException {
-    public void nofly (){System.out.println("Ошибка");}
+public class FlyException extends Exception {
+    public FlyException() {
+    }
+
+    public FlyException(String message) {
+        super(message);
+    }
+
+    public FlyException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public FlyException(Throwable cause) {
+        super(cause);
+    }
+
+    public FlyException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
+    }
 }
