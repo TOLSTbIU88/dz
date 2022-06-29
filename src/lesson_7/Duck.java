@@ -2,21 +2,17 @@ package lesson_7;
 
 public class Duck extends FlyException implements Fligths {
 
-    private String isInjured  ;
+    private boolean isInjured  ;
+    public Duck(boolean isInjured) {
+        this.isInjured = isInjured;
+    }
+
+    public void setInjured(boolean injured) {
+        isInjured = injured;
+    }
+
     public void fly(){
         System.out.println("Утка летит");
     }
 
-    public Duck() {
-        this.isInjured = isInjured;
-    }
-
-    @Override
-    public void nofly() {
-        super.nofly();
-    }
-
-    public void setIsInjured(String isInjured) {
-        this.isInjured = isInjured;
-    }
 }
