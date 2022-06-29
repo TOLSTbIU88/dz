@@ -13,12 +13,11 @@ public class Plane  implements Fligths {
     public void setCountPassengers(int countPassengers) {
         this.countPassengers = countPassengers;
     }
-    public void fly (){
-        if (countPassengers < 0){
+    public void fly () {
+        if (countPassengers < 0) {
+            System.out.println("Самолет не летит");
         }
-        else
-
+         else
         System.out.println("Самолет летит");
     }
-
 }
