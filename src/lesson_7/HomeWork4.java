@@ -12,7 +12,9 @@ public class HomeWork4 {
         Fligths [] flys = {Tu214,IL96,duckMac,duckCrak};
 
         for (Fligths fligths: flys)
-                fligths.fly();
+               try {
+                   fligths.fly();
+               } catch (FlyException){
             }
 
 
