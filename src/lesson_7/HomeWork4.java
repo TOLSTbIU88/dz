@@ -13,8 +13,6 @@ public class HomeWork4 {
 
         for (Fligths fligths: flys)
                 fligths.fly();
-
-
             }
 
 
