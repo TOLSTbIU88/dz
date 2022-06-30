@@ -1,7 +1,7 @@
 package lesson_7;
 
 public class HomeWork4 {
-    public static void main(String[] args) throws FlyException {
+    public static void main(String[] args) {
 
 
         Plane Tu214 = new Plane(10);
@@ -11,8 +11,13 @@ public class HomeWork4 {
 
         Fligths [] flys = {Tu214,IL96,duckMac,duckCrak};
 
-        for (Fligths fligths: flys)
+        for (Fligths fligths: flys) {
+            try {
                 fligths.fly();
+            } catch (FlyException e) {
+                System.out.println(e.getMessage());
+            }
+        }
 
 
             }
