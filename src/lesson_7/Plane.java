@@ -15,7 +15,7 @@ public class Plane  implements Fligths {
     }
     public void fly () throws FlyException{
         if (countPassengers < 0) {
-                throw new FlyException("Самолет не летит",countPassengers);
+                throw new FlyException("Ошибка:Пассажиров в самолете меньше 0",countPassengers);
             } else {
         }
         System.out.println("Самолет летит");

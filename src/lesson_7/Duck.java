@@ -14,7 +14,7 @@ public class Duck implements Fligths {
     }
     public void fly() throws FlyException {
         if (isInjured) {
-            throw new FlyException("Утка ранена",isInjured);
+            throw new FlyException("Ошибка :Утка ранена",isInjured);
         } else {
             System.out.println("Утка летит");
         }
