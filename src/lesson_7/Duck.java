@@ -12,9 +12,9 @@ public class Duck implements Fligths {
     public void setInjured(boolean injured) {
         isInjured = injured;
     }
-    public void fly() throws FlyException {
+    public void fly() {
         if (isInjured) {
-            throw new FlyException("Утка ранена",true);
+
         } else {
             System.out.println("Утка летит");
         }
