@@ -13,7 +13,7 @@ public class Plane  implements Fligths {
     public void setCountPassengers(int countPassengers) {
         this.countPassengers = countPassengers;
     }
-    public void fly ()throws FlyException {
+    public void fly () {
         if (countPassengers < 0) {
             throw new FlyException("Самолет не летит", countPassengers)
         }
