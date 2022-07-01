@@ -1,5 +1,5 @@
 package lesson7Hard;
 
 public interface Tiked {
-    void tikket();
+    void tikket() throws TikException;
 }
