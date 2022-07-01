@@ -4,8 +4,7 @@ public class Duck implements Fligths {
 
     private boolean isInjured  ;
     public Duck(boolean isInjured) {
-        this.isInjured = isInjured;
-    }
+        this.isInjured = isInjured;}
     public boolean isInjured() {
         return isInjured;
     }
